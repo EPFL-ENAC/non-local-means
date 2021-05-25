@@ -45,7 +45,7 @@ RUN sed -i.bak \
     /opt/noVNC-1.1.0/vnc_lite.html
 
 # Install tigervnc to /usr/local
-RUN curl -sSfL 'https://bintray.com/tigervnc/stable/download_file?file_path=tigervnc-1.9.0.x86_64.tar.gz' | tar -zxf - -C /usr/local --strip=2
+RUN curl -sSfL 'https://sourceforge.net/projects/tigervnc/files/stable/1.11.0/tigervnc-1.11.0.x86_64.tar.gz' | tar -zxf - -C /usr/local --strip=2
 
 #----------------------------------------------------------------
 # ImageJ
