@@ -1,0 +1,30 @@
+'@id': https://limited.renku.ch/projects/olivia.mariani/non-local-means
+'@type':
+- http://schema.org/Project
+- http://www.w3.org/ns/prov#Location
+http://schema.org/agent: 0.14.2
+http://schema.org/creator:
+  '@id': mailto:olivia.mariani@epfl.ch
+  '@type':
+  - http://schema.org/Person
+  - http://www.w3.org/ns/prov#Person
+  http://schema.org/affiliation: null
+  http://schema.org/alternateName: null
+  http://schema.org/email: olivia.mariani@epfl.ch
+  http://schema.org/name: Olivia Mariani
+  http://www.w3.org/2000/01/rdf-schema#label: Olivia Mariani
+http://schema.org/dateCreated: '2021-05-25T14:03:28.327460+00:00'
+http://schema.org/name: non-local-means
+http://schema.org/schemaVersion: '8'
+https://swissdatasciencecenter.github.io/renku-ontology#automatedTemplateUpdate: false
+https://swissdatasciencecenter.github.io/renku-ontology#immutableTemplateFiles: []
+https://swissdatasciencecenter.github.io/renku-ontology#templateId: python-minimal
+https://swissdatasciencecenter.github.io/renku-ontology#templateMetadata: '{"__template_source__":
+  "https://github.com/SwissDataScienceCenter/renku-project-template", "__template_ref__":
+  "0.1.19", "__template_id__": "python-minimal", "__namespace__": "olivia.mariani",
+  "__automated_update__": true, "__repository__": "https://limited.renku.ch/gitlab",
+  "__sanitized_project_name__": "non-local-means", "__project_slug__": "olivia.mariani/non-local-means",
+  "description": "", "name": "non-local-means"}'
+https://swissdatasciencecenter.github.io/renku-ontology#templateReference: 0.1.19
+https://swissdatasciencecenter.github.io/renku-ontology#templateSource: https://github.com/SwissDataScienceCenter/renku-project-template
+https://swissdatasciencecenter.github.io/renku-ontology#templateVersion: 817b03c0f434a79eb54473688c1f897a66228b3d
