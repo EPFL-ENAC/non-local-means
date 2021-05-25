@@ -1,0 +1,9 @@
+[
+  {
+    "@id": "_:b0",
+    "@type": [
+      "https://swissdatasciencecenter.github.io/renku-ontology#DatasetProvenance"
+    ],
+    "http://schema.org/hasPart": []
+  }
+]
