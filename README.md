@@ -1,5 +1,40 @@
 # non-local-means
 
+Usage example of the non-local means algorithm, using scikit-image https://github.com/scikit-image/scikit-image/blob/main/skimage/restoration/non_local_means.py. Other examples on the scikit-image website: https://scikit-image.org/docs/dev/auto_examples/filters/plot_nonlocal_means.html
+
+If you use the non-local means method, please cite:
+
+A. Buades, B. Coll and J. -. Morel, "A non-local algorithm for image denoising," 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05), 2005, pp. 60-65 vol. 2, doi: 10.1109/CVPR.2005.38.
+
+```bibtex
+@INPROCEEDINGS{1467423,
+  author={Buades, A. and Coll, B. and Morel, J.-M.},
+  booktitle={2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05)}, 
+  title={A non-local algorithm for image denoising}, 
+  year={2005},
+  volume={2},
+  pages={60--65},
+  doi={10.1109/CVPR.2005.38}}
+```
+
+If you use the estimate_sigma from the restoration module of the scikit-image package for the noise variance estimation, please cite:  
+
+D. L. Donoho and I. M. Johnstone. “Ideal spatial adaptation by wavelet shrinkage.” Biometrika 81.3 (1994): 425-455. DOI:10.1093/biomet/81.3.425
+
+```bibtex
+@article{10.1093/biomet/81.3.425,
+    author = {Donoho, David L and Johnstone, Iain M},
+    title = {Ideal spatial adaptation by wavelet shrinkage},
+    journal = {Biometrika},
+    volume = {81},
+    number = {3},
+    pages = {425--455},
+    year = {1994},
+    month = {09},
+    issn = {0006-3444},
+    doi = {10.1093/biomet/81.3.425}}
+```
+
 ## Introduction
 
 This is a Renku project - basically a git repository with some
