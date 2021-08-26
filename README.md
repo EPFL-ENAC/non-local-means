@@ -71,3 +71,10 @@ interface.
 
 Once you feel at home with your project, we recommend that you replace
 this README file with your own project documentation! Happy data wrangling!
+
+## Run Docker Compose
+
+```bash
+docker-compose up
+# Go to the link with the token given in console output
+```
